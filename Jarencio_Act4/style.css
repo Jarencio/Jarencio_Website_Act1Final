@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ 
+ .content-container{
+     width: 80%;
+     margin: auto;
+ }
+ .monster-profile{
+     display: flex;
+     margin-top: 5px;
+ }
+ html {
+     margin: 0;
+     height: 100%;
+   }
+   
+   body {
+     margin: 0;
+     height: 100%;
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url(Character_Images/Background-transformed.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+
+   }
+   
+   
+   html::before,
+   html::after,
+   body::before,
+   body::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: block;
+     width: .5vmin;
+     height: .5vmin;
+     border-radius: 50%;
+     color: transparent;
+   }
+
+   
+   h1,h4{
+     margin: 0;
+     margin-left: 30px;
+     width: 100%;
+     display: flex;
+     justify-content: left;
+     position: relative;
+     color: whitesmoke;
+     font-size: 60px;
+   }
+   
+   h4{
+    margin-top: 0%;
+    font-size: 20px;
+   }
+
+   h6{
+    color: whitesmoke; 
+   }
+
+     .title 
+     { 
+     top: 20px;
+     left: 20%;
+     background-size: 100px 100px;
+     width: 80%;
+ 
+     }

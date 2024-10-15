@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Module 11</title>
+  </head>
+  <body>
+    <div class="title">
+      <link
+        href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <h1>
+        DOLL HOUSE DEATH RACE
+      </h1>
+      <h4>
+        RANDOMLY PLACE YOUR BETS ON WHO'S DOLL WILL WIN THE RACE
+      </h4>
+    </div>
+
+    <!-- <div>
+        <h1 style="text-align: center;">MONSTER WHEEL!</h1>
+    </div> -->
+
+    <div class="content-container">
+      <h6 style="margin-left: 25px">Add your Players Name</h6>
+      <div class="form-inline">
+        <div class="form-group mx-sm-3 mb-2">
+          <input
+            type="text"
+            class="form-control"
+            id="monster-name"
+            placeholder="Enter players name"
+            onfocus="this.value=''"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary mb-2" onclick="add()">
+          Add
+        </button>
+      </div>
+      <div class="divider" style="display: flex; justify-content: space-around">
+        <div class="border-top">
+          <h6>DOLLS:</h6>
+          <section id="monster-container"></section>
+        </div>
+        <div id="winner">
+          <div class="winner-inputs">
+            <div class="form-inline winner-inputs">
+              <div class="form-group mx-sm-3 mb-2">
+                <input
+                  type="text"
+                  style="width: 160px !important"
+                  class="form-control pangalan"
+                  id="winner-name"
+                  placeholder="Winner"
+                />
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary mb-2"
+                onclick="pick()"
+              >
+                Pick monster
+              </button>
+
+            <img src="/Character_Images/Toxic_Molty.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </footer>
+</html>
