@@ -9,6 +9,9 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Sixtyfour+Convergence&display=swap');
+      </style>
     <link rel="stylesheet" href="style.css" />
     <title>Module 11</title>
   </head>
@@ -27,19 +30,15 @@
       </h4>
     </div>
 
-    <!-- <div>
-        <h1 style="text-align: center;">MONSTER WHEEL!</h1>
-    </div> -->
-
     <div class="content-container">
-      <h6 style="margin-left: 25px">Add your Players Name</h6>
+      <h6 style="margin-left: 16px">Add your Dolls Name</h6>
       <div class="form-inline">
         <div class="form-group mx-sm-3 mb-2">
           <input
             type="text"
             class="form-control"
             id="monster-name"
-            placeholder="Enter players name"
+            placeholder="Enter Dolls name"
             onfocus="this.value=''"
           />
         </div>
@@ -47,12 +46,12 @@
           Add
         </button>
       </div>
-      <div class="divider" style="display: flex; justify-content: space-around">
+      <div class="divider" >
         <div class="border-top">
           <h6>DOLLS:</h6>
-          <section id="monster-container"></section>
+          <section id="monster-container"> </section>
         </div>
-        <div id="winner">
+        <div id="winner" class="border-top">
           <div class="winner-inputs">
             <div class="form-inline winner-inputs">
               <div class="form-group mx-sm-3 mb-2">
@@ -69,7 +68,7 @@
                 class="btn btn-primary mb-2"
                 onclick="pick()"
               >
-                Pick monster
+                Pick a doll
               </button>
 
             </div>

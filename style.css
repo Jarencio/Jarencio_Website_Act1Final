@@ -4,7 +4,7 @@
  }
  
  .content-container{
-     width: 80%;
+     width: 100%;
      margin: auto;
  }
  .monster-profile{
@@ -31,33 +31,21 @@
 
    }
    
-   
-   html::before,
-   html::after,
-   body::before,
-   body::after {
-     content: "";
-     position: absolute;
-     top: 0;
-     left: 0;
-     display: block;
-     width: .5vmin;
-     height: .5vmin;
-     border-radius: 50%;
-     color: transparent;
-   }
 
-   
-   h1,h4{
-     margin: 0;
-     margin-left: 30px;
-     width: 100%;
-     display: flex;
-     justify-content: left;
-     position: relative;
-     color: whitesmoke;
-     font-size: 60px;
-   }
+   h1, h4 {
+    margin: 0;
+    margin-left: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 0px 15px darkred;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
    
    h4{
     margin-top: 0%;
@@ -66,6 +54,8 @@
 
    h6{
     color: whitesmoke; 
+    font-style: italic;
+    
    }
 
      .title 
@@ -76,3 +66,89 @@
      width: 80%;
  
      }
+
+     .placement{
+      margin-left: 0%;
+     }
+
+    #winner{
+      margin-top: 10px;
+    }
+
+    .winner-inputs{
+      margin-top: 5px;
+    }
+
+    .monster-profile {
+      display: inline-block;
+      margin: 10px;
+    }
+    
+    .monster-container-inner {
+      text-align: center;
+    }
+
+    .img-thumbnail{
+      width: 130px;
+      height: 170px;
+    }
+
+    .img-fluid{
+      width: 110px;
+      height: 150px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+
+      h1{
+        font-size: 50px;
+      }
+
+      h4{
+        font-size: 20px;   
+      }
+
+      .title 
+      { 
+        width: 50%;
+      }
+
+      .img-thumbnail{
+        width: 110px;
+        height: 150px;
+      }
+  
+      .img-fluid{
+        width: 110px;
+        height: 150px;
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+
+      h1{
+        font-size: 40px;
+        margin-left: 5px;
+      }
+
+      h4{
+        font-size: 10px;   
+        margin-left: 5px;
+      }
+
+      .title 
+      { 
+        width: 30%;
+      }
+
+      .img-thumbnail{
+        width: 90px;
+        height: 130px;
+      }
+  
+      .img-fluid{
+        width: 70px;
+        height: 110px;
+      }
+    }
+    
