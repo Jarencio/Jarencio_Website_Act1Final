@@ -26,8 +26,23 @@
         DOLL HOUSE DEATH RACE
       </h1>
       <h4>
-        RANDOMLY PLACE YOUR BETS ON WHO'S DOLL WILL WIN THE RACE
+        KILL AND SURVIVE TO ESCAPE THE MANSION! BE THE LAST DOLL STANDING!
       </h4>
+      <h4 style="margin: 10px;">
+        HOW TO PLAY:
+      </h4>
+      <h4>
+        <ol>
+          <li>Enter a name for your doll.</li>
+          <li>Click the Add button to create a random doll with that name.</li>
+          <li>Keep adding dolls until you have at least 2.</li>
+          <li>When you're ready, click Simulate to start the game.</li>
+          <li>The game will randomly select who kills, who gets killed, and the weapon used.</li>
+          <li>Keep pressing Simulate until only one doll survives.</li>
+          <li>Enjoy the game!</li>
+        </ol>
+      </h4>
+      <h4> Note: When a doll dies, their image will turn greyscale in the doll list. </h4>
     </div>
 
     <div class="content-container">
@@ -55,20 +70,28 @@
           <div class="winner-inputs">
             <div class="form-inline winner-inputs">
               <div class="form-group mx-sm-3 mb-2">
-                <input
+                <input 
                   type="text"
                   style="width: 160px !important"
                   class="form-control pangalan"
-                  id="winner-name"
-                  placeholder="Winner"
+                  id="Killer-name"
+                  placeholder="Killer"
                 />
+                <input 
+                type="text"
+                style="width: 160px !important"
+                class="form-control pangalan space"
+                id="Killed-name"
+                placeholder="Killed"
+              />
+
               </div>
               <button
                 type="submit"
                 class="btn btn-primary mb-2"
                 onclick="pick()"
               >
-                Pick a doll
+                Simulate Scenario
               </button>
 
             </div>
